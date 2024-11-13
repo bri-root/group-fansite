@@ -1,0 +1,11 @@
+li{
+    display:inline;
+    padding: 3em;
+}
+
+#footer_text {
+    color:rebeccapurple;
+    font-weight: bold;
+    border: none;
+    padding:0;
+}
