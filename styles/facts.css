@@ -1,0 +1,43 @@
+body {
+    /* background-color: rgb(43, 210, 144); */
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #585d5f;
+}
+
+h1 {
+    color: rgb(31, 30, 30);
+    text-align: center;
+    border: 1px solid rgb(35, 34, 34);
+    background-color:  rgb(245, 245, 220);
+    margin-bottom: 0;
+    margin: 0;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+nav ul {
+    list-style-type: none; 
+    display: flex;        
+    justify-content: center; 
+    margin-bottom: 100px;
+}
+nav ul li {
+    margin: 0 100px;
+    
+
+    
+}
+
+#facts-list {
+    text-align: justify;
+    line-height: 2;
+    margin: 10px 50px 20px;
+    border: 1px solid black;
+    padding: 4em 6em;
+    background-color: rgb(245, 245, 220);
+    display: inline-block;
+
+}
