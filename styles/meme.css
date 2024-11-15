@@ -1,3 +1,11 @@
+
+.ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+}
+
 body {
     background-color: #fdfdf6;
     background-image: url("/Users/newstudent/Developer/Unit3/group_projects/group-fansite/images/cute-pug.jpg");
@@ -6,23 +14,34 @@ body {
     }
 
 /* Header */
-header {
+/* header {
     background-color: rgba(255, 255, 255, 0.6);
     color: black;
     padding: 20px;
     text-align: center;
     border: black 1px solid;
     /* text-decoration: underline black; */
-    }
+    /* } */ 
+
+h1 {
+    font-size: xx-large;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: black;
+    /* border: black 1px solid; */
+    border-style: dotted;
+    padding: 15px;
+}
 
 ul {
     list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 1.5rem;
-    margin-top: 0.5rem;
+    text-align: center;
+    /* display: flex;
+    justify-content: center; */
+    /* gap: 10rem;
+    margin-top: 0.5rem; */
+    font-size: large;
     }
-
 /* Header #2 */
 
 h2 {
@@ -31,7 +50,8 @@ h2 {
     padding: 1em;
     background-color: rgba(255, 255, 255, 0.6);
     color: black;
-    border: black 1px solid;
+    /* border: black 1px solid; */
+    border-style: dotted;
 }
 p {
     text-align: center;
@@ -39,7 +59,9 @@ p {
     padding: 2%;
     background-color: rgba(255, 255, 255, 0.6);
     color: black;
-    border: black 1px solid;
+    /* border: black 1px solid; */
+    border-style: dotted;
+
 }
 
 /* Main */
@@ -49,7 +71,8 @@ h3{
     background-color: rgba(255, 255, 255, 0.6);
     color: black;
     /* padding: 1%; */
-    border: black 1px solid;
+    /* border: black 1px solid; */
+    border-style: dotted;
 }
 
 .center {
@@ -57,6 +80,7 @@ h3{
     margin-left: auto;
     margin-right: auto;
     width: 35%;
+    border-radius: 15px;
 }
 
 /* Footer */
