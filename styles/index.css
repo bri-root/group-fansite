@@ -1,14 +1,3 @@
-/* li{
-    display:inline;
-    padding: 3em;
-}
-
-#footer_text {
-    color:rebeccapurple;
-    font-weight: bold;
-    border: none;
-    padding:0;
-} */
 
 body {
     cursor: url('../images/cursor_1.png'), auto; 
@@ -48,6 +37,7 @@ nav a {
 nav a:hover {
     color: #aa7b52;
     text-decoration: underline;
+    cursor: url('../images/cursor_1.png'), pointer; 
     }
 
 /* Main content */
@@ -65,19 +55,6 @@ main h2 {
     margin-bottom: 1rem;
     }
 
-main p {
-    color: #333;
-    font-size: 1rem;
-    margin-bottom: 1.5rem;
-    }
-
-/* main img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
-    margin-top: 1rem;
-    } */
 
 main img {
     max-width: 100%;
@@ -88,6 +65,40 @@ main img {
     object-fit: cover; /* Ensures the image fits the circle without distortion */
 }
 
+p {
+    font-size: 1.25rem; /* Larger and more readable text */
+    color: #5c4033; /* Warm brown color */
+    margin-bottom: 1.8rem;
+    line-height: 1.8;
+    text-align: justify;
+    position: relative;
+    padding: 1rem;
+    border-left: 6px solid #aa7b52; /* Thicker left border */
+    background-color: #fff8e1; /* Light, creamy background */
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    font-family: 'Comic Sans MS', sans-serif; /* Playful font */
+}
+
+/* Add a cute paw print symbol before each paragraph */
+main p::before {
+    content: "🐾 "; /* Paw print emoji */
+    font-size: 1.5rem;
+    position: absolute;
+    left: -1.8rem; /* Space it out from the paragraph */
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+/* Hover effect: Makes the paragraph grow a little */
+main p:hover {
+    background-color: #ffebcc; /* Lighter background on hover */
+    transform: scale(1.05); /* Slightly enlarges the paragraph */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+
 /* Footer */
 footer {
     background-color: #ffdd99;
@@ -96,6 +107,23 @@ footer {
     margin-top: 2rem;
     box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
     }
+
+footer p#footer_text {
+    font-size: 0.9rem;
+    color: #333;
+    text-align: center;
+    font-family: 'Arial', sans-serif; /* Different font for footer */
+    margin-top: 1rem;
+    padding: 0.5rem;
+
+    /* Reset styles inherited from main p */
+    background-color: transparent;  /* Remove background color */
+    border-left: none;  /* Remove the left border */
+    box-shadow: none;  /* Remove box shadow */
+    font-weight: normal;  /* Reset font weight */
+    color: #333;  /* Default color */
+    padding-left: 0;  /* Reset padding */
+}
 
 footer nav ul {
     display: flex;
@@ -113,10 +141,5 @@ footer a {
 
 footer a:hover {
     color: #aa7b52;
-    }
-
-#footer_text {
-    font-size: 0.9rem;
-    color: #333;
     }
 
