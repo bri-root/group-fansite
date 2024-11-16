@@ -5,8 +5,27 @@
     width: 100%;
     align-items: center;
 }
+.top-layer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.side-layer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1%;
+}
+.pug-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
 
 body {
+    cursor: url('../images/cursor_1.png'), auto; 
     background-color: #fdfdf6;
     background-image: url("/Users/newstudent/Developer/Unit3/group_projects/group-fansite/images/cute-pug.jpg");
     background-attachment: fixed;
@@ -41,6 +60,16 @@ ul {
     /* gap: 10rem;
     margin-top: 0.5rem; */
     font-size: large;
+    }
+nav a {
+    color: #3b9a9c;
+    text-decoration: none;
+    font-weight: bold;
+    }
+
+nav a:hover {
+    color: #aa7b52;
+    text-decoration: underline;
     }
 /* Header #2 */
 
