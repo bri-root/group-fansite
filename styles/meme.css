@@ -1,3 +1,93 @@
+/* body  */
+
+body {
+    cursor: url('../images/cursor_1.png'), auto; 
+    background-color: #fdfdf6;
+    background-image: url("/Users/newstudent/Developer/Unit3/group_projects/group-fansite/images/cute-pug.jpg");
+    background-attachment: fixed;
+    background-size: 6%;
+    }
+
+h1 {
+    font-size: xx-large;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #084a83;
+    border-style: dotted;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    font-size: large;
+    }
+
+nav a {
+    color: #084a83;
+    text-decoration: none;
+    font-weight: bold;
+    }
+
+nav a:hover {
+    color: #aa7b52;
+    text-decoration: underline;
+    }
+
+    /* Header #2 */
+
+h2 {
+    text-align: center;
+    /* text-decoration: underline black; */
+    padding: 1em;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #084a83;
+    border-style: dotted;
+    border-radius: 25px;
+}
+p {
+    text-align: center;
+    font-size: x-large;
+    padding: 2%;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #084a83;
+    /* border: black 1px solid; */
+    border-style: dotted;
+    border-radius: 25px;
+
+}
+
+/* Main */
+h3{
+    text-align: center;
+    font-size: x-large;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #084a83;
+    padding: 1%;
+    /* border: black 1px solid; */
+    border-style: dotted;
+    border-radius: 25px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    border-radius: 15px;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    padding: 0;
+    color: #084a83;
+}
+
 
 .ul {
     display: flex;
@@ -24,99 +114,16 @@
     width: 30%;
 }
 
-body {
-    cursor: url('../images/cursor_1.png'), auto; 
-    background-color: #fdfdf6;
-    background-image: url("/Users/newstudent/Developer/Unit3/group_projects/group-fansite/images/cute-pug.jpg");
-    background-attachment: fixed;
-    background-size: 6%;
-    }
-
-/* Header */
-/* header {
-    background-color: rgba(255, 255, 255, 0.6);
-    color: black;
-    padding: 20px;
-    text-align: center;
-    border: black 1px solid;
-    /* text-decoration: underline black; */
-    /* } */ 
-
-h1 {
-    font-size: xx-large;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.6);
-    color: black;
-    /* border: black 1px solid; */
-    border-style: dotted;
-    padding: 15px;
+.para-caption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
 }
 
-ul {
-    list-style: none;
-    text-align: center;
-    /* display: flex;
-    justify-content: center; */
-    /* gap: 10rem;
-    margin-top: 0.5rem; */
-    font-size: large;
-    }
-nav a {
-    color: #3b9a9c;
-    text-decoration: none;
-    font-weight: bold;
-    }
-
-nav a:hover {
-    color: #aa7b52;
-    text-decoration: underline;
-    }
-/* Header #2 */
-
-h2 {
-    text-align: center;
-    text-decoration: underline black;
-    padding: 1em;
-    background-color: rgba(255, 255, 255, 0.6);
-    color: black;
-    /* border: black 1px solid; */
-    border-style: dotted;
-}
-p {
-    text-align: center;
-    font-size: x-large;
-    padding: 2%;
-    background-color: rgba(255, 255, 255, 0.6);
-    color: black;
-    /* border: black 1px solid; */
-    border-style: dotted;
-
-}
-
-/* Main */
-h3{
-    text-align: center;
-    font-size: x-large;
-    background-color: rgba(255, 255, 255, 0.6);
-    color: black;
-    /* padding: 1%; */
-    /* border: black 1px solid; */
-    border-style: dotted;
-}
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 35%;
-    border-radius: 15px;
-}
-
-/* Footer */
-
-footer {
-    text-align: center;
-    font-weight: bold;
-    border: none;
-    padding: 0;
+.para-h3-tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
