@@ -54,12 +54,13 @@ main h2 {
 }
 
 main img {
-    max-width: 100%;
+    max-width: 40%;
     height: auto;
     border-radius: 50%;
     border: 5px solid #aa7b52;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
     object-fit: cover;
+    margin-bottom: 2rem;
 }
 
 p {
@@ -93,14 +94,6 @@ p:hover {
 }
 
 /* Footer */
-footer {
-    background-color: #ffdd99;
-    padding: 1rem;
-    text-align: center;
-    margin-top: 2rem;
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
-    width: 100%;
-}
 
 footer p#footer_text {
     font-size: 0.9rem;
@@ -133,4 +126,18 @@ footer a {
 
 footer a:hover {
     color: #aa7b52;
+}
+
+/* Footer */
+footer {
+    background-color: #ffdd99;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+#footer_text {
+    font-size: 0.9rem;
+    color: #333;
 }
