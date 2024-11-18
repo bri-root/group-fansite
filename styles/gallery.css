@@ -1,6 +1,12 @@
 body {
-    background-color: azure;
+    background-color: rgb(249, 237, 219);
     text-align: center;
+}
+header {
+    background-color: #ffdd99;
+    padding: 1rem 2rem;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
@@ -33,11 +39,11 @@ nav a {
     padding: 1em;
     /* align-items: center;
     justify-content: center; */
-    background-color: blueviolet;
+    background-color: #fdfdf6;
 }
 
 section {
-    background-color: white;
+    background-color: rgb(249, 237, 219);
     padding: 1em;
     border-radius: 8px;
 }
