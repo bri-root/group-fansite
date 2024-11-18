@@ -99,6 +99,7 @@ footer {
     text-align: center;
     margin-top: 2rem;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
 }
 
 footer p#footer_text {
@@ -111,6 +112,9 @@ footer p#footer_text {
     border-left: none;
     box-shadow: none;
     font-weight: normal;
+    display: inline;
+    width:auto;
+    text-align: center;
 }
 
 footer nav ul {
