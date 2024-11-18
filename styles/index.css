@@ -1,24 +1,23 @@
-
 body {
     cursor: url('../images/cursor_1.png'), auto; 
     background-color: #f9f9f9;
     color: #333;
     line-height: 1.6;
-    }
+}
 
 /* Header */
 header {
     background-color: #ffdd99;
     padding: 1rem 2rem;
     text-align: center;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-    }
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
 
 header h1 {
     font-size: 2rem;
     color: #553c2a;
     font-weight: bold;
-    }
+}
 
 nav ul {
     list-style: none;
@@ -26,78 +25,72 @@ nav ul {
     justify-content: center;
     gap: 1.5rem;
     margin-top: 0.5rem;
-    }
+}
 
 nav a {
     color: #553c2a;
     text-decoration: none;
     font-weight: bold;
-    }
+}
 
 nav a:hover {
     color: #aa7b52;
     text-decoration: underline;
-    cursor: url('../images/cursor_1.png'), pointer; 
-    }
+    cursor: url('../images/cursor_1.png'), pointer;
+}
 
-/* Main content */
+/* Main Content */
 main {
     padding: 2rem;
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
-    }
-    
+}
 
 main h2 {
     font-size: 1.75rem;
     color: #553c2a;
     margin-bottom: 1rem;
-    }
-
+}
 
 main img {
     max-width: 100%;
     height: auto;
-    border-radius: 50%; /* Makes the image circular */
-    border: 5px solid #aa7b52; /* Creates the border around the image */
-    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15); /* Adds shadow */
-    object-fit: cover; /* Ensures the image fits the circle without distortion */
+    border-radius: 50%;
+    border: 5px solid #aa7b52;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    object-fit: cover;
 }
 
 p {
-    font-size: 1.25rem; /* Larger and more readable text */
-    color: #5c4033; /* Warm brown color */
+    font-size: 1.25rem;
+    color: #5c4033;
     margin-bottom: 1.8rem;
     line-height: 1.8;
     text-align: justify;
     position: relative;
     padding: 1rem;
-    border-left: 6px solid #aa7b52; /* Thicker left border */
-    background-color: #fff8e1; /* Light, creamy background */
+    border-left: 6px solid #aa7b52;
+    background-color: #fff8e1;
     border-radius: 10px;
     transition: all 0.3s ease;
-    font-family: 'Comic Sans MS', sans-serif; /* Playful font */
+    font-family: 'Comic Sans MS', sans-serif;
 }
 
-/* Add a cute paw print symbol before each paragraph */
-main p::before {
-    content: "🐾 "; /* Paw print emoji */
+p::before {
+    content: "🐾 ";
     font-size: 1.5rem;
     position: absolute;
-    left: -1.8rem; /* Space it out from the paragraph */
+    left: -1.8rem;
     top: 50%;
     transform: translateY(-50%);
 }
 
-
-/* Hover effect: Makes the paragraph grow a little */
-main p:hover {
-    background-color: #ffebcc; /* Lighter background on hover */
-    transform: scale(1.05); /* Slightly enlarges the paragraph */
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
+p:hover {
+    background-color: #ffebcc;
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
-
 
 /* Footer */
 footer {
@@ -105,24 +98,19 @@ footer {
     padding: 1rem;
     text-align: center;
     margin-top: 2rem;
-    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
-    }
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
 
 footer p#footer_text {
     font-size: 0.9rem;
     color: #333;
-    text-align: center;
-    font-family: 'Arial', sans-serif; /* Different font for footer */
+    font-family: 'Arial', sans-serif;
     margin-top: 1rem;
-    padding: 0.5rem;
-
-    /* Reset styles inherited from main p */
-    background-color: transparent;  /* Remove background color */
-    border-left: none;  /* Remove the left border */
-    box-shadow: none;  /* Remove box shadow */
-    font-weight: normal;  /* Reset font weight */
-    color: #333;  /* Default color */
-    padding-left: 0;  /* Reset padding */
+    padding: 0.5rem 0;
+    background-color: transparent;
+    border-left: none;
+    box-shadow: none;
+    font-weight: normal;
 }
 
 footer nav ul {
@@ -131,15 +119,14 @@ footer nav ul {
     gap: 1rem;
     list-style: none;
     padding: 0.5rem 0;
-    }
+}
 
 footer a {
     color: #553c2a;
     text-decoration: none;
     font-weight: bold;
-    }
+}
 
 footer a:hover {
     color: #aa7b52;
-    }
-
+}
