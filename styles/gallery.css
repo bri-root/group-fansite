@@ -8,6 +8,7 @@ header {
     padding: 1rem 2rem;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: url('../images/cursor_1.png'), auto; 
 }
 
 h1 {
@@ -17,7 +18,7 @@ h1 {
 }
 
 nav ul {
-    list-style: none;
+    list-style: none; 
     padding: 0;
 }
 
@@ -28,7 +29,9 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: blue;
+    font-size: 1.2rem;
+    color: #553c2a;
+    font-weight: bold;
 }
 
 /* Main */
