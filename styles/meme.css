@@ -77,6 +77,11 @@ h3{
     width: 35%;
     border-radius: 15px;
 }
+.img-size {
+    width: 450px;
+    height: 500px;
+    border: solid 1px black
+}
 
 /* Footer */
 
